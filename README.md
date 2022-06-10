@@ -10,6 +10,8 @@
 
       - Run Neovim with `nvim` rather than `vim`. Alias it if you want to.
       - Neovim config is at `~/.config/nvim`
+      - Neovim uses `~/.config/nvim/init.vim` rather than `~/.vimrc`
+      - Neovim config can be a mix of Vimscript (`.vim`) and Lua (`.lua`) config files. Use what you prefer, but many LSP examples are written in Lua, so that's what I've used here
       - Neovim plugins are at `~/.local/share/nvim`
 
 - Install 'Plug' for Neovim with
