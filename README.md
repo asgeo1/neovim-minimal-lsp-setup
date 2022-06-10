@@ -42,7 +42,11 @@ The actual Typescript version will be as per whatever is installed in the projec
 
 ## Linting
 
-`eslint` and `prettier` are usually installed as part of the project, i.e. in `package.json`, so no need to install them separately
+`eslint` and `prettier` are usually installed as part of the project, i.e. in `package.json`. I've opted to use `prettierd` rather than regular `prettier`, so just install that
+
+```sh
+npm install -g @fsouza/prettierd
+```
 
 ## Shortcuts
 
