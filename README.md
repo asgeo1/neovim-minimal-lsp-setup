@@ -20,6 +20,8 @@
   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
          https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   ```
+  
+- Start `nvim` and then `:PlugInstall`, and then restart
 
 If you are still using Vim8, this will not clash with it, so you can run both side-by-side.
 
